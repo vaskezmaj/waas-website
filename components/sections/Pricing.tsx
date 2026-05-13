@@ -39,7 +39,7 @@ function PricingCard({
   inView,
 }: {
   tier: (typeof PRICING_TIERS)[number];
-  billing: BillingCycle;
+  billing: string;
   index: number;
   inView: boolean;
 }) {
